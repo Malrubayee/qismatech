@@ -76,6 +76,11 @@
     height: 500px;
 }
 
+.value{
+    text-align: center;
+    margin-left: 700px;
+}
+
 .footer{
     background-color: rgb(92, 196, 88);
     text-align: center;
