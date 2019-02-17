@@ -104,3 +104,19 @@ h1{
 .instagram:hover{
     animation: shake 0.5s;
 }
+
+.row{
+    display:flex;
+}
+
+.column {
+    float: left;
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
