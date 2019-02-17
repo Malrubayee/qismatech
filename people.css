@@ -110,5 +110,6 @@ h1{
   }
   
   .column {
+    margin-left: 30px;
     flex: 50%;
   }
