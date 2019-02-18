@@ -110,6 +110,7 @@ h1{
   }
   
   .column {
-    margin-left: 300px;
+    font-family: gloria-hallelujah, sans-serif;
+    margin-left: 250px;
     flex: 50%;
   }
