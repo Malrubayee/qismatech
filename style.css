@@ -42,13 +42,13 @@
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
     background-color:rgb(92, 196, 88);
-    color: rgb(92, 196, 88);
+    color: grey;
   }
   
   /* Style the active link (or home/logo) */
   .active {
     background-color:rgb(92, 196, 88);
-    color: rgb(92, 196, 88);
+    color: white;
   }
 
   ul {
@@ -151,7 +151,7 @@
 
 .gizmohome{
     max-width: 100%;
-    height: 100px;
+    height: auto;
 }
 
 .value{
@@ -165,5 +165,6 @@
 }
 
 .footerp{
-    height:100px;
+    max-width: 100%;
+    height: auto;
 }
