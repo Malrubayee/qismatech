@@ -158,8 +158,8 @@ h1{
 
 
 .founders{
-    max-width:75%;
-    max-height:30%;
+    max-width:100%;
+    max-height:35%;
 }
 
   .instagram{
@@ -178,10 +178,7 @@ h1{
   
   .column {
     font-family: gloria-hallelujah, sans-serif;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 50px;
-    flex: 50%;
+    flex: 25%;
     font-size: 2vw;
     max-width: 100%;
   }
