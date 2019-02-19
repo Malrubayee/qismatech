@@ -22,9 +22,8 @@
   
   /* Style navigation menu links */
   .topnav a {
-    color: white;
+    color: black;
     padding: 14px 16px;
-    text-decoration: none;
     font-family: gloria-hallelujah, sans-serif;
     font-size: 17px;
     display: block;
@@ -35,20 +34,20 @@
     background: black;
     display: block;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 20;
+    top: 20;
   }
   
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-    background-color:rgb(92, 196, 88);
-    color: grey;
+    background-color:rgb(50, 150, 46);
+    color: black;
   }
   
   /* Style the active link (or home/logo) */
   .active {
-    background-color:rgb(92, 196, 88);
-    color: white;
+    background-color:rgb(50, 150, 46);
+    color: black;
   }
 
   ul {
