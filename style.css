@@ -25,6 +25,7 @@ nav select {
     float: left;
     position: absolute;
     right: 0px;
+    
   }
   
   li a {
@@ -34,6 +35,8 @@ nav select {
     padding: 14px 16px;
     text-decoration: none;
     font-family: gloria-hallelujah, sans-serif;
+    font-style: normal;
+    
   }
   
   /* Change the link color to #111 (black) on hover */
@@ -46,6 +49,7 @@ nav select {
     nav ul     { display: none; }
     nav select { display: inline-block; }
   }
+
 
 .logo{
     margin: 20px 50px;
