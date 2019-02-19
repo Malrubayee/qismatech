@@ -12,6 +12,8 @@
 nav select {
     display: none;
     background: rgb(92, 196, 88);
+    font-family: gloria-hallelujah, sans-serif;
+    font-style: normal;
   }
 
   ul {
@@ -20,12 +22,13 @@ nav select {
     padding: 0;
     overflow: hidden;
     background-color:  rgb(92, 196, 88);
+    font-family: gloria-hallelujah, sans-serif;
+    font-style: normal;
   }
   
   li {
     float: left;
-    font-family: gloria-hallelujah, sans-serif;
-    font-style: normal;
+    
   }
   
   li a {
