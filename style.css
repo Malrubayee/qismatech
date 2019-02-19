@@ -23,7 +23,8 @@ nav select {
   
   li {
     float: left;
-    
+    font-family: gloria-hallelujah, sans-serif;
+    font-style: normal;
   }
   
   li a {
@@ -32,8 +33,6 @@ nav select {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: gloria-hallelujah, sans-serif;
-    font-style: normal;
     
   }
   
