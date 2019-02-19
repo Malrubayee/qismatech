@@ -1,9 +1,86 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(92, 196, 88);
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    font-family: gloria-hallelujah, sans-serif;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background-color: rgb(92, 196, 88);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color:rgb(50, 150, 46);
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color:rgb(50, 150, 46);
+    color: black;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(92, 196, 88);
+    font-family: gloria-hallelujah, sans-serif;
+    font-style: normal;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    animation: shake 0.5s;
+  }
+
+
+  @media (max-width: 960px) {
+    nav ul     { display: none; }
+    nav select { display: inline-block; }
+  }
+
 
 .logo{
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 30px;
-    height: 150px;
+    margin: 20px 50px;
+    height: 100px;
+}
+.logo:hover{
+    animation: shake 0.5s;
 }
 
 
@@ -15,16 +92,6 @@ h1{
     background: rgb(92, 196, 88);
     height: 150px;
 }
-
-
-.logo{
-    margin: 20px 50px;
-    height: 100px;
-}
-.logo:hover{
-    animation: shake 0.5s;
-}
-
 
 .home{
     margin-left: 350px;
