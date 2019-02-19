@@ -21,7 +21,7 @@
 
 .home{
     margin-left: 350px;
-    height:auto;
+    height:80px;
 }
 .home:hover{
     animation: shake 0.5s;
