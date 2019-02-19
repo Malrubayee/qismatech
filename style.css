@@ -22,7 +22,9 @@ nav select {
   }
   
   li {
-    float: right;
+    float: left;
+    position: absolute;
+    right: 0px;
   }
   
   li a {
