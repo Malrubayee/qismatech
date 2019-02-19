@@ -31,7 +31,7 @@
   
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: black;
+    background-color: rgb(92, 196, 88);
     display: block;
     position: absolute;
     right: 0;
