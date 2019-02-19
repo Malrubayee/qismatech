@@ -134,10 +134,8 @@
 }
 
 .instagram{
-    margin-left: 750px;
-    margin-bottom: 40px;
-    max-width: 100%;
-    max-height: 50%;
+    max-width: 10%;
+    max-height: 10%;
 }
 
 .instagram:hover{
