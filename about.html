@@ -11,13 +11,23 @@
 
 <body>
         <header>
-                <div class="nav-bar">
-                    <img src="QismaTechLogo.png" class="logo" onclick="sendtohome()">
-                        <img src="HOME.png" class="home" onclick="sendtohome()">
-                        <img src="Untitled-2.png" class="about" onclick="sendtoabout()">
-                        <img src="PEOPLE.png" class="ppl" onclick="sendtopeople()">
-                        <img src="contactus.png" class="enquire" onclick="sendtocontact()">
-                    </div>
+                <nav>   
+                        <div class="topnav">
+                                <a href="index.html"><img src="QismaTechLogo.png" class="logo"></a>
+                                <!-- Navigation links (hidden by default) -->
+                                <div id="myLinks">
+                                  <a href="index.html">Home</a>
+                                  <a href="about.html">About</a>
+                                  <a href="people.html">People</a>
+                                  <a href="contact.html">contact</a>
+                                </div>
+                                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                  <i class="fa fa-bars"></i>
+                                </a>
+                              </div>
+                      
+                      </nav>
             </header>
     <h1 class="abouttitle">About Us</h1>
     <div class="aboutpara">
