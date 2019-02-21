@@ -1,17 +1,18 @@
-function sendtoemail(){
-    window.open('mailto:qismatech@gmail.com?subject=Enquiry');
+function sendtoEmail(firstName, lastName, message){
+    //console.log(firstName+lastName+message)
+    //window.open('mailto:qismatech@gmail.com?subject=Enquiry');
 }
 
 function sendtohome(){
-    window.location.href="index.html";
+    window.location.href="../pages/index.html";
 }
 
 function sendtoabout(){
-    window.location.href="about.html";
+    window.location.href="../pages/about.html";
 }
 
 function sendtopeople(){
-    window.location.href="people.html"
+    window.location.href="../pages/people.html"
 }
 
 function sendtoinsta(){
@@ -19,7 +20,7 @@ function sendtoinsta(){
 }
 
 function sendtocontact(){
-    window.location.href="contact.html";
+    window.location.href="mailto:qismatech@gmail.com";
 }
 
 // Create the dropdown base
