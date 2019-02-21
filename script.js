@@ -4,7 +4,7 @@ function sendtoEmail(firstName, lastName, message){
 }
 
 function sendtohome(){
-    window.location.href="../pages/index.html";
+    window.location.href="./index.html";
 }
 
 function sendtoabout(){
